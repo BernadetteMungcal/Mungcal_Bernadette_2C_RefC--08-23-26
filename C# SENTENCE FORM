@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace HelloWorld
+{
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+			string name = "berna";
+		    int age = 25;
+			bool yes = 10 > 15;
+			double weight = 80.4;
+			char farahboom = 'A';
+			Console.WriteLine("Hi, my name is " + name + ", I am " + age + " years old. I bought a apple for a price of " + weight + " per kilo. The name of store is " + farahboom + "and is it " + yes + "for selling a high value fruits");
+
+
+			
+			
+		}
+	}
+}

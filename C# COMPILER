@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace HelloWorld
+{
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+			string name = "berna";
+		    int age = 25;
+			bool yes = 10 > 15;
+			double weight = 80.4;
+
+
+			
+			Console.WriteLine(name);
+			Console.WriteLine(age);
+			Console.WriteLine(yes);
+			Console.WriteLine(weight);
+
+		}
+	}C
